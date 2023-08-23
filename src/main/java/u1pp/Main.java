@@ -15,7 +15,7 @@ public class Main
      * returns the average of 3 integers. 
      * Should return a double that is mathematically accurate. 
      */
-    public static double averageOfThree(int a, int b, int c) {
+    public static double averageOfThree(double a, double b, double c) {
     	return (a + b + c) / 3;
     }
     
@@ -23,7 +23,7 @@ public class Main
      * Prints a 1-line greeting based on the name given
      */
     public static void printGreeting(String name) {
-    	System.out.println("hello");
+    	System.out.print("Hello ");
     	System.out.println(name);
     }
     
